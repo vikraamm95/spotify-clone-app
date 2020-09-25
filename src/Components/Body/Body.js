@@ -14,7 +14,10 @@ function Body({ spotify }) {
     <div className="body">
       <Header spotify={spotify} />
       <div className="body_info">
-        <img src={discover_weekly?.images[0].url} alt="" />
+        <img
+          src="https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_250/https://www.hypebot.com/wp-content/uploads/2020/07/discover-weekly-250x250.png"
+          alt=""
+        />
         <div className="body_infoText">
           <strong>PLAYLIST</strong>
           <h2>Discover Weekly</h2>
